@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:background="@drawable/black_header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- ボタン（灰色） -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/white_btn"
+            android:gravity="center"
+            android:text="灰色"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- ボタン（黒色） -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/black_btn"
+            android:gravity="center"
+            android:text="黒色"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- ボタン（赤色） -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/red_btn"
+            android:gravity="center"
+            android:text="赤色"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- 状態付きボタン -->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="灰色"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

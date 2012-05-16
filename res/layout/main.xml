@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- タイトル -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:text="サンプルボタン一覧画面"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- 状態付きボタン -->
+    <Button
+        android:id="@+id/next"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="灰色"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
